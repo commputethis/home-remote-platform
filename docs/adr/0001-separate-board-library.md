@@ -1,6 +1,7 @@
 # ADR 0001: Keep board support in a separate repository
 
-- Status: Accepted
+- Status: Superseded
+- Superseded by: ADR 0006
 - Date: 2026-07-19
 
 ## Context

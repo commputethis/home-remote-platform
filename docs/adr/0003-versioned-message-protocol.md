@@ -1,6 +1,7 @@
 # ADR 0003: Use a versioned typed message protocol
 
-- Status: Accepted
+- Status: Superseded
+- Superseded by: commputethis/home-remote-protocol ADR 0001
 - Date: 2026-07-19
 
 ## Context
@@ -16,3 +17,8 @@ Use typed packets with a common header, sequence number, device ID, payload leng
 - Invalid and incompatible packets can be rejected.
 - Duplicate commands can be detected.
 - The protocol can evolve without silently misinterpreting messages.
+
+## Note
+
+This decision was moved to the dedicated Home Remote Protocol repository
+after the protocol became an independently versioned library.
