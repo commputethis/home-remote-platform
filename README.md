@@ -6,7 +6,8 @@ The first application is a bedside controller for a bedroom light and ceiling fa
 
 ## Repositories
 
-- `home-remote-platform`: protocol, applications, ESPHome bridge, Home Assistant integration, and documentation.
+- `home-remote-platform`: applications, LVGL UI, ESP-NOW transport, ESPHome bridge, Home Assistant integration, and ecosystem documentation.
+- `home-remote-protocol`: reusable versioned messaging protocol and validation library.
 - `waveshare-s3-touch`: reusable hardware support for Waveshare ESP32-S3 touch displays.
 
 ## Milestone 1 status
@@ -24,9 +25,10 @@ Completed foundation:
 
 Hardware drivers and live ESP-NOW integration are intentionally scheduled for later milestones.
 
-## Current architecture
+## Roadmap and architecture
 
-See [`docs/architecture.md`](docs/architecture.md).
+- See [`ROADMAP.md`](ROADMAP.md) for current status, repository boundaries, and planned releases.
+- See [`docs/architecture.md`](docs/architecture.md) for the system architecture.
 
 ## Build the protocol test
 
