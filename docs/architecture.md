@@ -29,4 +29,4 @@ The bridge and Home Assistant are authoritative for light and fan state. The rem
 
 - `home-remote-protocol`: transport-independent packet definitions, serialization, validation, message types, sequencing, acknowledgements, compatibility rules, and protocol tests.
 
-- `home-remote-platform`: Bedroom Remote application behavior, LVGL integration, ESP-NOW transport implementation, bridge configuration, Home Assistant integration, and ecosystem-level documentation.
+- `home-remote-platform`: Bedroom Remote application behavior, LVGL integration, ESP-NOW transport implementation, bridge configuration, Home Assistant integration, resource and property mappings, and ecosystem-level documentation.
